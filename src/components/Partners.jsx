@@ -9,7 +9,7 @@ import smartworld from '../images/smartworld.png'
 function Partners() {
   return (
     <div className='mt-[230px]'>
-        <p className=' font-display1 w-[1337px] h-[56px] text-3xl ml-[196px] flex justify-center'>
+        <p className=' font-display1 w-[1337px] h-[56px] text-3xl ml-[270px] flex justify-center'>
             Our Growth Partners
         </p>
         <div className='w-[1896px] h-[212px] mt-[38px] bg-[#F3F6FF] flex' >
