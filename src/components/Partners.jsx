@@ -8,12 +8,12 @@ import smartworld from '../images/smartworld.png'
 
 function Partners() {
   return (
-    <div className='mt-[230px]'>
-        <p className=' font-display1 w-[1337px] h-[56px] text-3xl ml-[270px] flex justify-center'>
+    <div className='lg:mt-[230px] mt-[80px]'>
+        <p className=' font-display1 lg:w-[1337px] lg:h-[56px] text-2xl lg:text-3xl ml-[30px] lg:ml-[270px] lg:flex lg:justify-center'>
             Our Growth Partners
         </p>
-        <div className='w-[1896px] h-[212px] mt-[38px] bg-[#F3F6FF] flex' >
-            <img className='w-[263px] h-[116px] mt-12 ml-[75px]' src={m3m} alt="" />
+        <div className='lg:w-[1830px] lg:h-[212px] mt-[38px] bg-[#F3F6FF] flex overflow-scroll' >
+            <img className='w-[263px] h-[116px] mt-12 lg:ml-[75px]' src={m3m} alt="" />
             <img className='w-[263px] h-[116px] mt-12 ml-[34px]' src={whiteland} alt="" />
             <img className='w-[263px] h-[116px] mt-12 ml-[34px]' src={emaar} alt="" />
             <img className='w-[263px] h-[116px] mt-12 ml-[34px]' src={dlf} alt="" />

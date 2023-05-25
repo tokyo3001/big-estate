@@ -5,7 +5,7 @@ import arrow from '../images/arrow.png'
 function Header() {
   return (
     <div className='flex h-28 fixed bg-white '>
-        <div className='h-[54.05px] w-[148.62px] absolute left-[196px] top-[38.55px] grid'>
+        <div className='h-[54.05px] w-[148.62px] absolute left-[20px] lg:left-[196px] top-[38.55px] grid'>
             <img alt='logo' src={logo} className=''/>
         </div>
         <div className=''>
