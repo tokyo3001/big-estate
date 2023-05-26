@@ -9,16 +9,17 @@ function Footer() {
   return (
     <div className='grid'>
         <div className='lg:flex lg:mt-[105px] mt-[180px] ml-[20px] lg:ml-[258px]'>
-            <div className='w-[350px] lg:w-full'>
-                <p className='pt-[32px] pb-[32px]'>What is the leads I receive are junk? 
-                <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2'>+</span>
-                </p>
+            <div className='w-[350px] lg:w-[550px]'>
                 <hr />
                 <p className='pt-[32px] pb-[32px]'>What is the leads I receive are junk? 
                 <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2'>+</span>
                 </p>
                 <hr />
-                <p className='pt-[32px] pb-[32px]'>What is the leads I receive are junk? 
+                <p className='pt-[32px] pb-[32px]'>What platforms do you use to generate leads? 
+                <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2 mt-[-20px]'>+</span>
+                </p>
+                <hr />
+                <p className='pt-[32px] pb-[32px]'>Who can I contact for assistance? 
                 <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2'>+</span>
                 </p>
                 <hr />

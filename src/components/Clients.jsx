@@ -22,8 +22,8 @@ function Clients() {
             <div className='lg:flex ml-[10px] lg:mt-[0px] mt-[30px] rounded-lg shadow-sm shadow-slate-700 lg:w-[745px] lg:h-[180px]'>
                 <img src={img2} alt="" className='w-[245px] h-[180px] rounded-lg' />
                 <div className='lg:p-[47px] p-7'>
-                    <p>This is a unique platform to source high-quality leads that are highly valued in any marketing, particularly a shifting market.</p>
-                    <p className='float-right font-bold'>-Anshul Gupta, House of Real Estate</p>
+                    <p>Working with Big Estate has been an absolute pleasure. They understand the real estate market inside and out and have consistently provided us with high-quality leads.</p>
+                    <p className='float-right font-bold'>-Sukanya, Whiteland Corporation</p>
                 </div>
             </div>
         </div>
