@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import insta from '../images/ri_instagram-fillinsta.png'
 import fb from '../images/ic_baseline-facebookfb.png'
 import twitter from '../images/bi_twittertwitter.png'
@@ -23,7 +24,7 @@ function Footer() {
                 <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2'>+</span>
                 </p>
                 <hr />
-                <a href="jh" className='text-blue-800'>More FAQ</a>
+                <Link to='/faq' className='underline text-blue-700'>More FAQs</Link>
             </div>
             <div className='lg:ml-[350px] w-[506px] lg:mt-0 mt-[70px] h-[55px] '>
                 <p className='font-display1 text-3xl'>How We Can Help You?</p>

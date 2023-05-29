@@ -1,17 +1,16 @@
 import React from 'react'
 import banner from '../images/big-estate.png'
-import bar from '../images/bar.png'
 import whatsapp from '../images/whatsapp.png'
 
 function Banner() {
   return (
     <div className='grid'>
         <div className='lg:flex '>
-            <div className='lg:ml-[193px] ml-4'>
-                <p className='lg:mt-[272px] mt-44 font-display font-bold text-[#3461FF] leading-[70px] w-[535px] lg:h-[202px] h-[150px] text-5xl lg:text-7xl'>
+            <div className='ml-4'>
+                <p className='lg:mt-[272px] mt-44 font-display font-bold text-[#3461FF] leading-[70px] h-[150px] text-5xl lg:text-6xl'>
                     Scale Beyond <span className='text-black'>Normal!</span>
                 </p>
-                <p className='text-[#00000099] lg:leading-[32px] lg:mt-[21.43px] w-[400px] lg:w-[456px] h-[65px] font-display'>
+                <p className='text-[#00000099] lg:leading-[32px] w-[400px] lg:w-[456px] h-[65px] font-display'>
                     World’s best <span className='font-bold'>AI-Proptech</span> Solution for real estate Lead Generation
                 </p>
                 <button className=' mt-[41.57px] border-2 border-solid bg-[#3461FF] border-[#3461FF] text-white rounded-full pt-[14px] pb-[14px] pl-[28px] pr-[28px] '>
@@ -20,7 +19,6 @@ function Banner() {
             </div>
             <div className='grid lg:mt-[145.4px] mt-[100px]'>
                 <img src={banner} alt="banner" className='lg:ml-[104px] ml-4 lg:w-[700px] lg:h-[475.22px] w-[400px] h-[200px]' />
-                <img src={bar} alt="bar" className='lg:mt-[-480px] mt-[-250px] lg:ml-[670px] ml-[270px] w-[154px] h-[92.69px]' />
                 <button className='bg-[#5F82FF] lg:w-[94px] lg:h-[94px] w-[80px] h-[80px] rounded-full p-6 mt-[60px] lg:mt-[102.38px] ml-[300px] lg:ml-[752px]' >
                     <img alt='whatsapp' src={whatsapp} className='lg:w-[48px] w-[35px] lg:h-[48px] h-[35px]'/>
                 </button>
