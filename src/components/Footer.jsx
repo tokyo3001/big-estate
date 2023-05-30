@@ -8,9 +8,9 @@ import logo from '../images/logo.png'
 
 function Footer() {
   return (
-    <div className='grid'>
-        <div className='lg:flex lg:mt-[105px] mt-[180px] ml-[20px] lg:ml-[258px]'>
-            <div className='w-[350px] lg:w-[550px]'>
+    <div className='grid lg:w-[1024px]'>
+        <div className='lg:flex lg:mt-[105px] mt-[180px] ml-[20px]'>
+            <div className=''>
                 <hr />
                 <p className='pt-[32px] pb-[32px]'>What is the leads I receive are junk? 
                 <span className='rounded-full bg-blue-700 text-white float-right ml-56 w-6 h-6 pl-2'>+</span>
@@ -26,14 +26,14 @@ function Footer() {
                 <hr />
                 <Link to='/faq' className='underline text-blue-700'>More FAQs</Link>
             </div>
-            <div className='lg:ml-[350px] w-[506px] lg:mt-0 mt-[70px] h-[55px] '>
+            <div className='lg:ml-[150px] lg:w-[506px] lg:mt-0 mt-[70px] h-[55px] '>
                 <p className='font-display1 text-3xl'>How We Can Help You?</p>
                 <p className='font-light mt-5 lg:w-full w-[350px]'>Want to learn more about our properties and virtual tours?</p>
                 <p className='font-light'>Get in touch with us today.</p>
                 <input type="text" placeholder='Enter Your Email' className='mt-[76.06px]'/>
             </div>
         </div>
-        <div className='grid lg:ml-[234px] ml-[50px] mt-[120px] lg:grid-cols-5 lg:gap-4 '>
+        <div className='grid ml-[50px] mt-[120px] lg:grid-cols-5 lg:gap-4 lg:w-[1024px] '>
             <div className=''>
                 <ul className='lg:mt-[111px] mt-[120px] lg:border-r-black lg:border-2 lg:border-l-white lg:border-t-white lg:border-b-white'>
                     <li className='p-3'>Work with us</li>
@@ -66,19 +66,17 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <hr className='mt-[33px] ml-[233px] mr-[1100px] '/>
-        <div className='lg:ml-[782px] ml-[90px] lg:mt-[-28px] mt-[30px] flex align-middle'>
+        <div className='mt-[30px] flex justify-center lg:w-[1024px]'>
             <img src={insta} className='p-3' alt="" />
             <img src={twitter} className='p-3' alt="" />
             <img src={fb} className='p-3' alt="" />
             <img src={ln} className='p-3' alt="" />
         </div>
-        <hr className='lg:ml-[1040px] lg:mr-[235px] lg:mt-[-25px]'/>
-        <div className='lg:flex lg:justify-center lg:ml-0 ml-[130px] mt-[35px]'>
+        <div className='lg:flex lg:justify-center lg:w-[1024px] lg:ml-0 ml-[130px] mt-[35px]'>
             <img src={logo}  alt="" />
         </div>
-        <p className='lg:flex lg:justify-center mt-4 lg:ml-0 ml-[80px]'>copyright @ 2023 bigestate.inc</p>
-        <ul className='flex mt-4 lg:justify-center'>
+        <p className='lg:flex lg:justify-center lg:w-[1024px] mt-4 lg:ml-0 ml-[80px]'>copyright @ 2023 bigestate.inc</p>
+        <ul className='flex mt-4 lg:justify-center lg:w-[1024px]'>
             <li className='pl-8'>Legal stuff</li>
             <li className='pl-8'>Privacy Policy</li>
             <li className='pl-8'>Security</li>

@@ -14,32 +14,34 @@ function Clients() {
         <div className='lg:flex lg:mt-[117px] mt-[60px]'>
             <div className='lg:flex ml-[10px] rounded-lg shadow-sm shadow-slate-700 lg:w-[745px] lg:h-[180px]'>
                 <img src={img1} alt="" className='w-[245px] rounded-lg h-[180px]' />
-                <div className='lg:p-[47px] p-7'>
+                <div className='lg:p-[10px] p-7'>
                     <p>This is a unique platform to source high-quality leads that are highly valued in any marketing, particularly a shifting market.</p>
                     <p className='float-right font-bold'>-Anshul Gupta, House of Real Estate</p>
                 </div>
             </div>
-            <div className='lg:flex ml-[10px] lg:mt-[0px] mt-[30px] rounded-lg shadow-sm shadow-slate-700 lg:w-[745px] lg:h-[180px]'>
+            <div className='lg:flex ml-[10px] lg:mt-[0px] mt-[30px] rounded-lg shadow-sm shadow-slate-700 lg:w-[800px] lg:h-[180px]'>
                 <img src={img2} alt="" className='w-[245px] h-[180px] rounded-lg' />
-                <div className='lg:p-[47px] p-7'>
+                <div className='lg:p-[10px] p-7'>
                     <p>Working with Big Estate has been an absolute pleasure. They understand the real estate market inside and out and have consistently provided us with high-quality leads.</p>
                     <p className='float-right font-bold'>-Sukanya, Whiteland Corporation</p>
                 </div>
             </div>
         </div>
         <div className='flex mt-[31px]'> 
-            <img className='lg:ml-[649px] ml-[150px]' src={leftarrow} alt="" />
+            <img className=' ml-[150px]' src={leftarrow} alt="" />
             <img className='lg:ml-[500px]' src={rightarrow} alt="" />
         </div>
-        <div className='mt-[160px] lg:flex w-full h-[467px] bg-[#3461FF]'>
-            <div className=' lg:ml-[236px]'>
-                <p className='font-serif pt-10 lg:pt-0 mt-[135px] text-5xl lg:w-[749px] lg:h-[219px] text-white'>
-                    Learn why our clients trust us to drive long-term growth
-                </p>
-                <button className='border-2 border-solid bg-white border-[#ffffff] text-blue-700 rounded-full pt-2 pb-2 pl-7 pr-7 mt-5 lg:mt-[0px]'>Sign up</button>
-            </div>
-            <div className=' lg:mt-[-150px]'>
-                <img src={robot} alt="" />
+        <div className='mt-[160px] lg:ml-[-405px] lg:w-[1840px] h-[467px] bg-[#3461FF]'>
+            <div className='lg:flex lg:w-[1024px] lg:ml-[450px]'>
+                <div className=''>
+                    <p className='font-serif pt-10 lg:pt-0 mt-[135px] text-5xl lg:w-[749px] lg:h-[219px] text-white'>
+                        Learn why our clients trust us to drive long-term growth
+                    </p>
+                    <button className='border-2 border-solid bg-white border-[#ffffff] text-blue-700 rounded-full pt-2 pb-2 pl-7 pr-7 mt-5 lg:mt-[0px]'>Sign up</button>
+                </div>
+                <div className=' lg:mt-[-150px] '>
+                    <img src={robot} alt="" className='lg:w-[500px] lg:h-[300px]'/>
+                </div>
             </div>
         </div>
     </div>

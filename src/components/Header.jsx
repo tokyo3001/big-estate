@@ -24,7 +24,7 @@ function Header({ color }) {
 
   return (
     <div className='flex lg:h-28 h-28'>
-        <div className='h-[54.05px] w-[148.62px] absolute  top-[38.55px] grid'>
+        <div className='h-[54.05px] w-[148.62px] absolute ml-4  top-[38.55px] grid'>
             <img alt='logo' src={logo} className=''/>
         </div>
         <div className='flex lg:grid '>
@@ -37,7 +37,7 @@ function Header({ color }) {
                 <li className='ml-[22px]'>Case studies</li>
                 <li className='ml-[10px]'>About us</li>
             </ul>
-            <div className="visible lg:invisible ml-[-850px] mt-[40px]">
+            <div className="visible lg:invisible ml-[-400px] mt-[40px]">
             <button
               className={
                 "text-[#3461FF] border-2 border-[#3461FF] font-bold uppercase text-sm px-6 py-3 rounded-full outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 " +
